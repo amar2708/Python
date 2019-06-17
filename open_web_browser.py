@@ -6,7 +6,7 @@ def open_browser():
     webbrowser.open(url,new=1,autoraise=True)
 
 def wait():
-    time.sleep(10)
+    time.sleep(20)
 
 def open_book():
     url='https://docs.python.org/3/library/webbrowser.html'
